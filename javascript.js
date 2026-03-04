@@ -1,3 +1,5 @@
 let getComputerChoice = function () {randomNumber = Math.floor(Math.random() * 3)
-return randomNumber};
+if (randomNumber === 0) {return "Rock"}
+else if (randomNumber === 1) {return "Paper"}
+else {return "Scissors"}};
 alert(getComputerChoice());

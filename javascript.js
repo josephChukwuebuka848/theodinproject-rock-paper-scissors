@@ -46,14 +46,11 @@ const ComputerChoice = getComputerChoice();
  
 let humanScore = 0;
 let computerScore = 0;
-playRound();
-playRound();
-playRound();
-playRound();
-playRound();
-console.log(humanScore);
-console.log(computerScore);
-
+let i = 1;
+while (i < 6) 
+{playRound()
+    i++
+}
 if (humanScore > computerScore) {
     console.log("You are an awesome human, you won!");
 }
